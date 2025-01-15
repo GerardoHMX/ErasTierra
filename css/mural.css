@@ -237,15 +237,15 @@ h2:hover {
 }
 
 .era-precambrica {
-    background-image: url(/images/precambrico.png);
+    background-image: url(./images/precambrico.png);
 }
 
 .era-cambrica {
-    background-image: url(/images/cambrico.png);
+    background-image: url(./images/cambrico.png);
 }
 
 .era-devonica {
-    background-image: url(/images/devonico.png);
+    background-image: url(./images/devonico.png);
 }
 
 .era-carbonifera {
