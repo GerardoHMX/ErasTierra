@@ -31,7 +31,7 @@ pangeaSeparation.forEach(periodoData => {
     const imageCell = document.createElement("td");
     const image = document.createElement("img");
     image.src = periodoData.imagen;
-    image.style.width = "100%";
+    image.style.width = "100px";
     imageCell.rowSpan = maxRows;
     imageCell.appendChild(image);
     row.appendChild(imageCell);
