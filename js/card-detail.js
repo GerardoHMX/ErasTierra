@@ -31,6 +31,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const customTooltip = document.getElementById('customTooltip');
         const data = historiaGeologica[text];
         let information = '';
+        tooltipImage.src = '';
+        tooltipImage.style.display = 'none'; 
         if(data.titulo){
             tooltipTitle.textContent = data.titulo;
         }   
