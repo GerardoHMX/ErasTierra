@@ -1,14 +1,3 @@
-/* Fuentes personalizadas */
-@font-face {
-    font-family: 'Crotah';
-    src: url('../fonts/Crotah.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Neometra'; 
-    src: url('../fonts/neometra.ttf') format('truetype');
-}
-
 /* Estilos base */
 html {
     background-color: #000000;
