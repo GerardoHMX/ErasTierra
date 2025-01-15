@@ -45,7 +45,6 @@ td:hover {
 
 tr:hover {
     background-color: #3797a2d0;
-    transform: scale(1.05);
 }
 
 td[rowspan]:hover {
