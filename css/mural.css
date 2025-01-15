@@ -257,6 +257,14 @@ h2:hover {
 }
 
 .era-jurasica {
+    background-image: url(../images/jurasico.png);
+}
+
+.era-cretaceo {
+    background-image: url(../images/cretaceo.png);
+}
+
+.era-paleogeno {
     background-image: url(../images/paleogeno.png);
 }
 
