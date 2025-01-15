@@ -1,0 +1,300 @@
+/* Estilos base */
+body {
+    background-color: transparent;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    color: #030303;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h2:hover {
+    font-size: 30px;
+    cursor: pointer;
+    transition: font-size 0.2s ease;
+}
+
+/* Layout principal */
+.mural {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 3850px;
+    overflow: auto;
+
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.mural::-webkit-scrollbar {
+    display: none;
+}
+
+.item {
+    height: 100vh;
+    width: 350px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Secciones de contenido */
+.eon {
+    margin: 0;
+    text-align: center;
+}
+
+.periodos {
+    margin: 0;
+}
+
+.periodos ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.periodos li {
+    width: 100%;
+    padding: .5rem;
+    text-align: center;
+    height: 20px;
+}
+
+.periodos li:hover,
+.periodos li:active {
+    font-size: 110%;
+    cursor: pointer;
+    transition: font-size 0.2s ease;
+}
+
+/* Estilos de eones */
+
+.eon-precambrico {
+    margin: 0;
+    padding: .2rem;
+    height: 101px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eon-cambrico,
+.eon-fanerozoico {
+    margin: 0;
+    padding: .2rem;
+    height: 40px;
+}
+
+.eon-precambrico {
+    background-color: #ff5d45;
+}
+
+.eon-cambrico,
+.eon-fanerozoico {
+    background-color: #69addd;
+}
+
+/* Estilos de eras */
+.era-paleozoica,
+.era-mesozoica,
+.era-cenozoica {
+    margin: 0;
+    padding: .2rem;
+    height: 40px;
+}
+
+.era-paleozoica,
+.era-mesozoica {
+    text-align: center;
+}
+
+.era-paleozoica {
+    background-color: #ae98c7;
+}
+
+.era-mesozoica {
+    background-color: #a3c4e7;
+}
+
+.era-cenozoica {
+    background-color: #c0ca81;
+}
+
+/* Colores de periodos */
+.hadeano {
+    background-color: #f38145;
+}
+
+.archeano {
+    background-color: #ffae91;
+}
+
+.proterozoico {
+    background-color: #ffda7a;
+}
+
+.cambrico {
+    background-color: #9d98c1;
+}
+
+.devonico,
+.ordovicico {
+    background-color: #8682bd;
+}
+
+.silurico {
+    background-color: #857aab;
+}
+
+.carbonifero {
+    background-color: #d6d3e3;
+}
+
+.permico {
+    background-color: #c2b7cc;
+}
+
+.triasico {
+    background-color: #7ebbe8;
+}
+
+.jurasico {
+    background-color: #96ccee;
+}
+
+.cretaceo {
+    background-color: #b5ddf6;
+}
+
+.paleogeno {
+    background-color: #79a255;
+}
+
+.neogeno {
+    background-color: #9db651;
+}
+
+.cuaternario {
+    background-color: #cad587;
+}
+
+/* Efectos hover/active para eras */
+.era-precambrica:hover,
+.era-cambrica:hover,
+.era-devonica:hover,
+.era-carbonifera:hover,
+.era-permica:hover,
+.era-jurasica:hover,
+.era-cretaceo:hover,
+.era-paleogeno:hover,
+.era-paleozoico:hover,
+.era-neogenica:hover,
+.era-cuaternaria:hover,
+.era-precambrica:active,
+.era-cambrica:active,
+.era-devonica:active,
+.era-carbonifera:active,
+.era-permica:active,
+.era-jurasica:active,
+.era-cretaceo:active,
+.era-paleogeno:active,
+.era-paleozoico:active,
+.era-neogenica:active,
+.era-cuaternaria:active {
+    width: 385px;
+    transition: width 0.3s ease;
+}
+
+/* Imágenes de fondo para eras */
+.era-precambrica,
+.era-cambrica,
+.era-devonica,
+.era-carbonifera,
+.era-permica,
+.era-jurasica,
+.era-cretaceo,
+.era-paleogeno,
+.era-paleozoico,
+.era-neogenica,
+.era-cuaternaria {
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 350px;
+    position: relative;
+}
+
+.era-precambrica {
+    background-image: url(/images/precambrico.png);
+}
+
+.era-cambrica {
+    background-image: url(/images/cambrico.png);
+}
+
+.era-devonica {
+    background-image: url(/images/devonico.png);
+}
+
+.era-carbonifera {
+    background-image: url(/images/carbonifero.png);
+}
+
+.era-permica {
+    background-image: url(/images/permico.png);
+}
+
+.era-jurasica {
+    background-image: url(/images/jurasico.png);
+}
+
+.era-cretaceo {
+    background-image: url(/images/cretaceo.png);
+}
+
+.era-paleogeno {
+    background-image: url(/images/paleogeno.png);
+}
+
+.era-paleozoico {
+    background-image: url(/images/paleozoico.png);
+}
+
+.era-neogenica {
+    background-image: url(/images/neogeno.png);
+}
+
+.era-cuaternaria {
+    background-image: url(/images/cuaternario.png);
+}
+
+.punto-relevante {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: yellow;
+    border-radius: 50%;
+    animation: blink 2s infinite;
+
+    transform-origin: center;
+    animation: scale 2s infinite, pulse 1s infinite;
+}
+
+@keyframes scale {
+    0% { opacity: 1; }
+    50% { opacity: 1; transform: scale(1.5); }
+    100% { opacity: 1; transform: scale(1); }
+}
+ 

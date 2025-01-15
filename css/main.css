@@ -1,0 +1,212 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+    background: linear-gradient(to bottom, #c9dbe9, #a3dbea);
+}
+
+table {
+    width: 100%;
+    height: 100vh;
+    border-collapse: collapse;
+    font-size: clamp(.8rem, 0.8vw, 1.2rem);
+    margin-bottom: 40px;
+}
+
+th {
+    text-align: center;
+}
+
+th,
+td {
+    border-bottom: 1px solid #3797a2;
+    border-right: 3px solid #3797a2;
+    vertical-align: center;
+    padding: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+th {
+    border: none;
+    font-size: clamp(1rem, 1vw, 1.2rem);
+}
+
+th:hover {
+    background-color: #3797a2;
+    transform: scale(1.05);
+}
+
+td:hover {
+    background-color: #3797a2;
+    transform: scale(1.10);
+}
+
+tr:hover {
+    background-color: #3797a2d0;
+    transform: scale(1.05);
+}
+
+td[rowspan]:hover {
+    background-color: transparent;
+    transform: none;
+}
+
+
+hr {
+    border: 1px solid transparent;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+img:active {
+    transform: scale(6.0);
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.noBorder {
+    border-right: none;
+}
+
+.number {
+    text-align: right;
+}
+
+.opciones {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin: 25px 0px 10px -90px;
+}
+
+button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: 1px solid #286e75;
+    border-radius: 5px;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    width: 170px;
+}
+
+button:hover,
+.active {
+    background-color: #3797a2;
+    color: #fff;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.mes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-right: 10px;
+}
+
+.nombreMes {
+    grid-column: span 3;
+    background: #b9d6ec;
+    text-align: center;
+    font-weight: bold;
+    padding: 4px;
+    margin: 10px 0;
+}
+
+.dia {
+    display: inline-block;
+    padding: 4px;
+    text-align: center;
+    border-radius: 4px;
+    margin: 2px 2px;
+    background: transparent;
+    height: 20px;
+}
+
+.precambrico {
+    background: rgb(100 190 90);
+}
+
+.primaria {
+    background: rgb(160 200 100);
+}
+
+.secundaria {
+    background: rgb(200 210 100);
+}
+
+.terciaria {
+    background: rgb(220, 230, 100)
+}
+
+.cuaternaria {
+    background: rgb(240, 260, 100)
+}
+
+.legend {
+    margin: 30px 0px 10px -10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.legend-item {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 5px 10px;
+}
+
+.legend-color {
+    height: 20px;
+}
+
+.legend-title {
+    margin-top: 4px;
+    font-weight: bold;
+}
+
+.legend-duration {
+    font-size: 0.8rem;
+}
+
+.legend-description {
+    font-size: 0.8rem;
+}
+
+.legend-periods {
+    font-size: 0.8rem;
+}
+
+.events {
+    margin-top: 30px;
+    width: 80%;
+    max-width: 800px;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.event {
+    margin-bottom: 10px;
+}
+
+.time {
+    font-weight: bold;
+}

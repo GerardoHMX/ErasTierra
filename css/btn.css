@@ -1,0 +1,69 @@
+a {
+    text-decoration: none;
+    width: 100%;
+    display: block;
+}
+
+.floating-button {
+    position: fixed;
+    top: 18px;
+    right: 18px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #7fb6ddba;
+    color: #2b5472;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    font-weight: bold;
+}
+
+.floating-button:hover {
+    color: white;
+    background-color: #2b5572;
+}
+
+.floating-button i {
+    font-size: 20px;
+}
+
+.option-list {
+    position: fixed;
+    top: 80px;
+    right: 18px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #7fb6dd;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    display: none;
+    z-index: 999;
+    font-family: Arial, sans-serif;
+}
+
+.option-list li {
+    padding: 10px 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.option-list li:hover {
+    background-color: #2b55728c;
+}
+
+.option-list li a {
+    width: 100%;
+    text-decoration: none;
+    color: rgb(45, 45, 45);
+}
+
+.option-list li a:hover {
+    color: white;
+}
