@@ -237,47 +237,39 @@ h2:hover {
 }
 
 .era-precambrica {
-    background-image: url(./images/precambrico.png);
+    background-image: url(images/precambrico.png);
 }
 
 .era-cambrica {
-    background-image: url(./images/cambrico.png);
+    background-image: url(images/cambrico.png);
 }
 
 .era-devonica {
-    background-image: url(./images/devonico.png);
+    background-image: url(images/devonico.png);
 }
 
 .era-carbonifera {
-    background-image: url(/images/carbonifero.png);
+    background-image: url(images/carbonifero.png);
 }
 
 .era-permica {
-    background-image: url(/images/permico.png);
+    background-image: url(images/permico.png);
 }
 
 .era-jurasica {
-    background-image: url(/images/jurasico.png);
-}
-
-.era-cretaceo {
-    background-image: url(/images/cretaceo.png);
-}
-
-.era-paleogeno {
-    background-image: url(/images/paleogeno.png);
+    background-image: url(images/paleogeno.png);
 }
 
 .era-paleozoico {
-    background-image: url(/images/paleozoico.png);
+    background-image: url(images/paleozoico.png);
 }
 
 .era-neogenica {
-    background-image: url(/images/neogeno.png);
+    background-image: url(images/neogeno.png);
 }
 
 .era-cuaternaria {
-    background-image: url(/images/cuaternario.png);
+    background-image: url(images/cuaternario.png);
 }
 
 .punto-relevante {
