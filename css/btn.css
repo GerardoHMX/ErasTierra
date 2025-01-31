@@ -67,3 +67,26 @@ a {
 .option-list li a:hover {
     color: white;
 }
+
+.license {    
+    color: #ffffff;
+    font-size: 0.85rem;
+    text-align: center;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    gap: 5px;
+    transform: rotate(90deg);
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    width: 40px;
+    z-index: 3;
+    white-space: nowrap;
+    a{
+        width:  auto;
+        color: #ffffff;
+        text-decoration: none;
+        white-space: nowrap;
+    } 
+}  
